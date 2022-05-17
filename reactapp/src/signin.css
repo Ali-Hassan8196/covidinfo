@@ -1,0 +1,102 @@
+.indiv{
+    display: flex;width: 100%;height: 100vh;
+}
+.ldiv{
+    flex: 1;background-color: rgb(16, 3, 70);border-left: 5px solid black;
+}
+.rdiv{
+  flex: 1;border-right: 5px solid black;
+}
+.signin{
+    margin-top: 200px;margin-left: 100px;
+}
+.signin input{
+    width: 80%;border-radius: 20px;height: 50px;
+    background-color: rgb(197, 216, 231);border-color: rgb(197, 216, 231);
+    border: none;
+}
+
+.signin p{
+    width: 80%;
+}
+
+.hrline{
+    width: 25%;height: 7px;background-color: blue;border-radius: 10px;
+}
+.btndiv{
+    display: flex;width: 70%;
+}
+.btndiv button{
+    height: 50px;width: 150px;border: 2px solid blue;border-radius: 50px;background-color: blue;
+}
+.signin input:hover{
+     transform: scaleY(1.1);
+}
+.btndiv button:hover{
+    transform: scaleY(1.1);
+}
+@media only screen and (max-width: 780px)
+ {
+    .ldiv{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .maindiv{
+    display:flex;width: 100%;
+}
+#signindiv{
+    
+    margin: auto;
+border: 1px solid grey;
+box-shadow: 4px 4px 12px 12px;
+height: 300px;
+width: 20%;
+margin-top: 100px;
+padding: 10px;
+text-align: center;
+justify-content:center;
+padding-top: 60px;
+flex: 1;
+border-radius: 10px;
+}
+.leftdiv{
+    flex:1;background-color: blueviolet;
+    height: 100vh;
+    margin-top: 100px;
+padding: 10px;
+text-align: center;
+justify-content:center;
+padding-top: 60px; margin: auto;
+border: 1px solid grey;
+}
+
+.form{
+    text-align: center;
+    align-items: center;
+    
+}
+.form input{
+    width:60%;border-radius: 10px;box-shadow: 4px 4px 6px 6px;
+    font-size: 20px;text-align: center;border: none;
+}
+button{
+    border:2px solid grey;font-size: 30px;
+}
+.form input:hover{
+    background-color: lightgrey;
+} */

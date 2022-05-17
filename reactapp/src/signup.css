@@ -1,0 +1,112 @@
+.updiv{
+    display: flex;width: 100%;height: 100vh;
+}
+
+.ridiv{
+    flex: 5;background-color: lightslategray;
+
+}
+.leindiv{
+    display: flex;flex-direction: column;width: 80%;background-color: black;
+    color: white;height: 100vh;justify-content: space-around;text-align: center;
+    flex: 1;background-color: blueviolet
+}
+.riupdiv{
+    width: 100%;height: 70px;display: flex;
+    background-color: white;text-align: center;align-items: center;
+}
+.rimdiv{
+    width: 98%;height: 100px;display: flex;
+    background-color: white; text-align: center;align-items: center;margin-top: 50px;
+    margin: 40px auto;border-radius: 10px;
+}
+.ribdiv{
+    width: 98%;height: 74%;display: flex;
+    background-color: white;margin-top: 50px;
+    margin: 40px auto;border-radius: 10px;
+}
+.link{
+    text-decoration: none;color: white;font-size: 30px;
+}
+.ribindiv{
+    width: 95%;display: flex;flex-wrap: wrap;margin: 10px auto;align-items: center;text-align: center;
+    justify-content: space-around;margin-top: 40px;
+}
+.ribindiv input{
+        width: 47%;padding: 10px;margin: 10px;height: 50px;border-top: none;border-right: none;border-radius: 5px;
+}
+.ribindiv button{
+    width: 30%;padding: 10px;margin: 10px;height: 50px;border-radius: 10px;
+    text-align: center;align-items: center;color: white;background-color: rgb(190, 183, 183);
+    
+}
+.ribindiv button:hover{
+   background-color: grey;
+}
+.ribindiv input:hover{
+    border-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #signupdiv{
+    width: 50%;
+    margin: auto;
+border: 1px solid grey;
+box-shadow: 4px 4px 12px 12px;
+height: 600px;
+margin-top: 100px;
+padding: 10px;
+text-align: center;
+justify-content:center;
+padding-top: 60px;
+
+
+border-radius: 10px;
+}
+.form1{
+    text-align: center;
+    align-items: center;
+    
+}
+.form1 input{
+    width:60%;border-radius: 10px;box-shadow: 4px 4px 6px 6px;
+    font-size: 20px;text-align: center;border: none;
+}
+button{
+    border:2px solid grey;font-size: 30px;border-radius: 10px;
+    border-style: groove;
+}
+.form1 input:hover{
+    background-color: lightgrey;
+} */
